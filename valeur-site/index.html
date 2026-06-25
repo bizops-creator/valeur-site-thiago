@@ -8,7 +8,7 @@
 <link rel="stylesheet" href="assets/css/styles.css" />
 </head>
 <body>
-
+<!-- ===================== HEADER ===================== -->
 <header class="hdr">
   <div class="wrap">
     <a class="brand" href="#top" aria-label="Valeur">
@@ -27,9 +27,8 @@
     </button>
   </div>
 </header>
-
 <main id="top">
-
+  <!-- ===================== HERO ===================== -->
   <section class="hero" id="agendar">
     <div class="wrap hero-top">
       <div class="urgency reveal"><span class="dot"></span><span><b>Vagas limitadas</b> &nbsp;·&nbsp; diagnósticos gratuitos por mês</span></div>
@@ -57,45 +56,25 @@
           <div class="hs"><div class="n">+R$500M</div><div class="l">Em receita gerada</div></div>
         </div>
       </div>
-
-      <div class="card reveal d2" id="form-hero-wrap">
-        <div class="kick">Agendar Diagnóstico</div>
-        <h3>Pronto para escalar com previsibilidade?</h3>
-        <p class="sub">Preencha e receba o contato de um especialista.</p>
-        <form class="lp-form" novalidate>
-          <div class="field"><input type="text" name="nome" placeholder="Nome completo" required /></div>
-          <div class="field row">
-            <input type="text" name="empresa" placeholder="Nome da empresa" required />
-            <input type="tel" name="telefone" placeholder="Telefone (WhatsApp)" required />
-          </div>
-          <div class="field"><input type="text" name="cnpj" inputmode="numeric" placeholder="CNPJ" required /></div>
-          <div class="field">
-            <select name="time" required>
-              <option value="" disabled selected>Quantos no time de vendas?</option>
-              <option>Ainda não tenho time</option>
-              <option>1 a 3 vendedores</option>
-              <option>4 a 10 vendedores</option>
-              <option>11 a 25 vendedores</option>
-              <option>Mais de 25 vendedores</option>
-            </select>
-          </div>
-          <button class="btn btn-primary btn-block" type="submit">Receber avaliação gratuita
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
-          </button>
-          <div class="assure">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2l8 4v6c0 5-3.5 8-8 10-4.5-2-8-5-8-10V6l8-4z"/></svg>
-            Atendemos empresas B2B de 10 a 50 funcionários.
-          </div>
-        </form>
-        <div class="form-ok">
-          <div class="ok-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M5 13l4 4L19 7"/></svg></div>
-          <h3>Recebemos sua solicitação!</h3>
-          <p>Um especialista da Valeur entra em contato em até 24h pelo WhatsApp informado.</p>
+      <!-- offer card -->
+      <div class="card offer-modal reveal d2" id="form-hero-wrap">
+        <div class="ic-circle">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M11 3l1.6 4.7L17.5 9l-4.9 1.6L11 15.3l-1.6-4.7L4.5 9l4.9-1.6L11 3z"/><path d="M18.2 14.2l.7 2 2 .7-2 .7-.7 2-.7-2-2-.7 2-.7.7-2z"/></svg>
+        </div>
+        <h3>Agendar Diagnóstico</h3>
+        <p class="sub">Pronto para estruturar sua operação e escalar com previsibilidade comercial?</p>
+        <div class="btn btn-primary btn-block respondi-trigger" role="button" tabindex="0" data-respondi-container="" data-respondi-mode="fullscreen" data-respondi-src="https://form.respondi.app/uS1LkAV1">Quero saber mais
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </div>
+        <div class="divider"></div>
+        <div class="assure">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2l8 4v6c0 5-3.5 8-8 10-4.5-2-8-5-8-10V6l8-4z"/></svg>
+          O cadastro leva menos de 2 minutos.
         </div>
       </div>
     </div>
   </section>
-
+  <!-- ===================== TRUST ===================== -->
   <section class="trust">
     <div class="wrap">
       <div class="lbl">Empresas que já estruturaram o comercial com a Valeur</div>
@@ -128,7 +107,7 @@
       </div>
     </div>
   </section>
-
+  <!-- ===================== STATS ===================== -->
   <section class="stats" id="resultados">
     <div class="wrap">
       <div class="grid">
@@ -139,7 +118,7 @@
       </div>
     </div>
   </section>
-
+  <!-- ===================== OFFER / DIAGNÓSTICO ===================== -->
   <section class="section" id="diagnostico">
     <div class="wrap">
       <div class="sec-head reveal">
@@ -147,7 +126,6 @@
         <h2>Deixe o improviso no passado.<br/>Venda com <span class="champ">método e clareza.</span></h2>
         <p class="lead">O Diagnóstico Comercial 360º é uma análise de ponta a ponta da sua operação. São 20 pilares avaliados para transformar o seu comercial em uma máquina de vendas previsível.</p>
       </div>
-
       <div class="offer-card reveal d1">
         <div class="offer-top">
           <h3>Consultoria Comercial <sup>360º</sup></h3>
@@ -188,7 +166,7 @@
       </div>
     </div>
   </section>
-
+  <!-- ===================== FAIXA FOTO ===================== -->
   <section class="photoband">
     <img src="assets/images/sections/band.jpg" alt="Equipe Valeur em treinamento comercial" class="photoband-img">
     <div class="ov"></div>
@@ -201,7 +179,7 @@
       </a>
     </div>
   </section>
-
+  <!-- ===================== COMPARATIVO ===================== -->
   <section class="section" id="comparativo">
     <div class="wrap">
       <div class="sec-head reveal">
@@ -219,7 +197,7 @@
       </div>
     </div>
   </section>
-
+  <!-- ===================== COMO FUNCIONA ===================== -->
   <section class="section lightsec" id="como">
     <div class="wrap">
       <div class="sec-head reveal">
@@ -243,7 +221,7 @@
           <p>Você recebe um plano claro do que ajustar em pessoas, processos e funil para escalar com previsibilidade.</p>
         </div>
       </div>
-
+      <!-- case -->
       <div class="case reveal d1">
         <img class="logo" src="assets/images/logo/symbol-champ.png" alt="" style="width:54px;filter:none;opacity:.95;" />
         <div>
@@ -257,7 +235,7 @@
       </div>
     </div>
   </section>
-
+  <!-- ===================== DEPOIMENTOS ===================== -->
   <section class="section" id="depoimentos">
     <div class="wrap">
       <div class="sec-head reveal">
@@ -286,7 +264,7 @@
       </div>
     </div>
   </section>
-
+  <!-- ===================== FOUNDERS ===================== -->
   <section class="section founders" id="fundadores">
     <div class="wrap founders-grid">
       <img src="assets/images/sections/founders.jpg" alt="Fundadores da Valeur" class="founders-photo">
@@ -303,7 +281,7 @@
       </div>
     </div>
   </section>
-
+  <!-- ===================== FINAL CTA ===================== -->
   <section class="final" id="form">
     <div class="wrap grid">
       <div class="reveal">
@@ -316,45 +294,24 @@
           <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M5 13l4 4L19 7"/></svg> Sem compromisso e sem enrolação</li>
         </ul>
       </div>
-
-      <div class="card reveal d1">
-        <div class="kick">Agendar Diagnóstico</div>
-        <h3>Receba o contato de um especialista</h3>
-        <p class="sub">Em até 24h pelo WhatsApp.</p>
-        <form class="lp-form" novalidate>
-          <div class="field"><input type="text" name="nome" placeholder="Nome completo" required /></div>
-          <div class="field row">
-            <input type="text" name="empresa" placeholder="Nome da empresa" required />
-            <input type="tel" name="telefone" placeholder="Telefone (WhatsApp)" required />
-          </div>
-          <div class="field"><input type="text" name="cnpj" inputmode="numeric" placeholder="CNPJ" required /></div>
-          <div class="field">
-            <select name="time" required>
-              <option value="" disabled selected>Quantos no time de vendas?</option>
-              <option>Ainda não tenho time</option>
-              <option>1 a 3 vendedores</option>
-              <option>4 a 10 vendedores</option>
-              <option>11 a 25 vendedores</option>
-              <option>Mais de 25 vendedores</option>
-            </select>
-          </div>
-          <button class="btn btn-primary btn-block" type="submit">Receber avaliação gratuita
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
-          </button>
-          <div class="assure">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2l8 4v6c0 5-3.5 8-8 10-4.5-2-8-5-8-10V6l8-4z"/></svg>
-            Seus dados estão seguros e não serão compartilhados.
-          </div>
-        </form>
-        <div class="form-ok">
-          <div class="ok-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M5 13l4 4L19 7"/></svg></div>
-          <h3>Recebemos sua solicitação!</h3>
-          <p>Um especialista da Valeur entra em contato em até 24h pelo WhatsApp informado.</p>
+      <div class="card offer-modal reveal d1">
+        <div class="ic-circle">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M11 3l1.6 4.7L17.5 9l-4.9 1.6L11 15.3l-1.6-4.7L4.5 9l4.9-1.6L11 3z"/><path d="M18.2 14.2l.7 2 2 .7-2 .7-.7 2-.7-2-2-.7 2-.7.7-2z"/></svg>
+        </div>
+        <h3>Agendar Diagnóstico</h3>
+        <p class="sub">Receba o contato de um especialista em até 24h pelo WhatsApp.</p>
+        <div class="btn btn-primary btn-block respondi-trigger" role="button" tabindex="0" data-respondi-container="" data-respondi-mode="fullscreen" data-respondi-src="https://form.respondi.app/uS1LkAV1">Quero saber mais
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </div>
+        <div class="divider"></div>
+        <div class="assure">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2l8 4v6c0 5-3.5 8-8 10-4.5-2-8-5-8-10V6l8-4z"/></svg>
+          O cadastro leva menos de 2 minutos.
         </div>
       </div>
     </div>
   </section>
-
+  <!-- ===================== FOOTER ===================== -->
   <footer class="footer">
     <div class="wrap">
       <div class="top">
@@ -387,9 +344,8 @@
       </div>
     </div>
   </footer>
-
 </main>
-
 <script src="assets/js/main.js"></script>
+<script>const bodyScript=document.querySelector('body'),hasScript=document.querySelector('#respondi_src');if(!hasScript){const script=document.createElement('script');script.setAttribute("async", "");document.body.appendChild(script),script.id='respondi_src',script.src='https://embed.respondi.app/embed.js';}</script>
 </body>
 </html>
